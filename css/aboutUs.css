@@ -1,0 +1,131 @@
+html, body, h1, h4 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+.header{
+    background-image: url("../img/background-header.png");
+    width: 100%;
+    height: 440px;
+    margin: 0,0,0,0;
+    background-repeat : no-repeat;
+   background-size : cover;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+}
+.headed{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headed-title{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.img-logo{
+    object-fit: cover;
+    width: auto;
+    height: 80px;
+}
+.title{
+    text-decoration: none;
+    color: white;
+}
+.title-about{
+    margin-bottom: 5%;
+}
+.text-about{
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 5%;
+    height: auto;
+    color: white;
+}
+.diferencia{
+    background-image: url("../img/background-diferencia.png");
+    color: white;
+    width: 100%;
+    height: 440px;
+    margin: 0,0,0,0;
+    background-repeat : no-repeat;
+    background-size : cover;
+}
+.back-dif{
+    background: rgba(0, 0, 0, 0.5);
+    height: 440px;
+}
+
+.title-diferencia{
+    display: flex;
+    justify-content: space-around;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.body-diferencia{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 50%;
+    margin-left: 15%;
+}
+
+.img-dif{
+    object-fit: cover;
+    width: auto;
+    height: 50px;
+    margin-left: 5%;
+}
+
+.targets{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center; 
+    margin-top: 10%;
+      
+}
+.text-dif{
+    width: 200px;
+    margin-left: 5%;
+    margin-top: 5%;
+    height: auto;
+    color: white;
+}
+
+.team-ls{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    width: 100%;
+    height: 1040px;
+    margin: 0,0,0,0;
+}
+.team-member{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.img-member{
+    width: 200px;
+}
+.team{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.title-team{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
